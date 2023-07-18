@@ -1,0 +1,15 @@
+/* Add your custom CSS styles here */
+body {
+    padding-top: 60px; /* To accommodate the fixed navigation bar */
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#person-details-section {
+    padding: 20px;
+}
+
+/* Add other styles as needed */

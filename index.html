@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Management System</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="logo-container">
+        <img src="sample-logo.jpg" alt="Sample Logo">
+    </div>
+
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Person Management System</a>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#person-details-section">Person Details</a></li>
+        
+        </ul>
+    </nav>
+
+    
+    <section id="person-details-section" class="container mt-4">
+        <h2>Person Details</h2>
+        
+        <form id="person-details-form">
+            <label for="person-id">Enter Person ID:</label>
+            <input type="text" id="person-id" required>
+            <button type="submit">Fetch Details</button>
+        </form>
+        <div id="person-details-container">
+            
+        </div>
+        
+        <form id="picture-form">
+            <label for="picture-link">Enter Picture Link:</label>
+            <input type="text" id="picture-link" required>
+            <button type="submit">Submit Picture</button>
+        </form>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+        Person Management System &copy; 2023
+    </footer>
+
+    <!-- Link to Bootstrap JS and your custom JS file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
